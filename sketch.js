@@ -53,7 +53,7 @@ function draw() {
   ns9 = ns9 + .005;
   ns10 = ns10 + .005;
   ns11 = ns10 + .005;
-  ns12 = ns10 + .005;
+  ns12 = ns10 + .01;
 
   a = noise(ns1) * 70 + 10;
   r1 = noise(ns2) * (rmax - rmin + 5) + rmin;
@@ -96,7 +96,7 @@ function draw() {
 
 
 
-  fill(noise(ns3) * 360, 30, 50);
+  fill(map(noise(ns3), 0, 0.8, 0,360), 25, 55);
 
 
 
