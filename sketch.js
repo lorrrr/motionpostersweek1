@@ -6,7 +6,7 @@ var bg, p;
 function setup() {
   colorMode(HSB, 360, 100, 100);
   rmin = 55;
-  rmax = 90;
+  rmax = 100;
   createCanvas(559.5, 768);
   background(255);
   r = 120;
