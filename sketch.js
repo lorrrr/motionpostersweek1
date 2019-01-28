@@ -86,9 +86,9 @@ function draw() {
   //pop();
   //scale(1);
 
-  image(bg, -280, -384,559.5, 768);
+  image(bg, -280, -384,364.872, 496.226);
   push();
-  scale(2.3);
+  scale(1.5);
 
   //shapeMode(CENTER);
   rotate(radians(rotation));
