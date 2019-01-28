@@ -7,7 +7,8 @@ function setup() {
   colorMode(HSB, 360, 100, 100);
   rmin = 55;
   rmax = 100;
-  createCanvas(559.5, 768);
+  //createCanvas(559.5, 768);
+ createCanvas(364.872, 496.226); 
   background(255);
   r = 120;
   r1 = 60;
