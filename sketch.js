@@ -7,8 +7,8 @@ function setup() {
   colorMode(HSB, 360, 100, 100);
   rmin = 55;
   rmax = 100;
-   createCanvas(364.872, 496.226); 
-//  createCanvas(559.5, 768);
+
+  createCanvas(559.5, 768);
   background(255);
   r = 120;
   r1 = 60;
@@ -86,9 +86,9 @@ function draw() {
   //pop();
   //scale(1);
 
-  image(bg, -280, -384,364.872, 496.226);
+  image(bg, -280, -384,364.559.5, 768);
   push();
-  scale(1.5);
+  scale(2.3);
 
   //shapeMode(CENTER);
   rotate(radians(rotation));
