@@ -8,6 +8,7 @@ function setup() {
   rmin = 55;
   rmax = 100;
   createCanvas(559.5, 768);
+
   background(255);
   r = 120;
   r1 = 60;
